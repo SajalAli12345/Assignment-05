@@ -57,7 +57,7 @@ stored_data = load_data()
 # navigation 
 st.title("🔐 Secure Data Encryption System")
 menu = ["Home","Register","Login","Stored data","Retrive data"]
-choice = st.sidebar.selectbox("Navigation", "menu")
+choice = st.sidebar.selectbox("Navigation", menu)
 
 if choice == "Home":
     st.subheader("Welcome to my 🔐  Secure Data Encryption System!")
